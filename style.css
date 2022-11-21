@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
   list-style: none;
 }
@@ -68,9 +68,9 @@ header {
 button {
   color: #27789e;
   background: transparent;
-  border: solid 3px #27789e;
-  padding: 4px;
-  border-radius: 25px;
+  border: solid 4px #27789e;
+  padding: 6px;
+  border-radius: 30px;
   font-size: 26px;
   cursor: pointer;
   width: 180px;
@@ -84,18 +84,19 @@ button:hover {
 }
 
 .container-text {
-  padding: 290px 0px 0px 110px;
+  width: auto;
+  padding: 300px 0px 0px 60px;
 }
 
 .text h3 {
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .text h1 {
   color: #fff;
-  font-size: 35px;
-  margin-top: 7px;
+  font-size: 50px;
+  margin-top: 4px;
 }
 
 .text span {
@@ -104,12 +105,14 @@ button:hover {
 
 .text p {
   color: #fff;
-  font-size: 22px;
+  font-size: 23px;
   margin-top: 5px;
 }
 
 .redes-social {
-  margin-top: 10px;
+  margin-top: 18px;
+  margin-left: 90px;
+  cursor: pointer;
 }
 
 .redes-social a {
@@ -120,11 +123,17 @@ button:hover {
 }
 
 .btn {
-  margin-top: 15px;
+  margin-top: 40px;
+  margin-left: 140px;
 }
 
 @media screen and (max-width: 600px) {
   .cabeçalho-link {
     display: none;
   }
+}
+img {
+  width: 450px;
+  margin-top: -400px;
+  margin-left: 750px;
 }
