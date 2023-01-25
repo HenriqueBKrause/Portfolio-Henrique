@@ -12,32 +12,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>layout</title>
   </head>
   <body>
+    <!--Inicio da peg home-->
     <div class="background">
+      <div id="home"></div>
       <header>
-        <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
-        <!--logo-->
 
         <div class="cabeçalho-link">
           <li>
-            <a href="#">Home</a>
+            <a href="#home"><span> < </span>Inicio<span> ></span></a>
           </li>
 
           <li>
-            <a href="#">About</a>
+            <a href="#aboutpage"><span> < </span>Sobre<span> ></span></a>
           </li>
 
           <li>
-            <a href="#">Services</a>
+            <a href="#services"><span> < </span>Serviços<span> ></span></a>
           </li>
 
           <li>
-            <a href="#">Skills</a>
+            <a href="#skills"><span> < </span>Habilidades<span> ></span></a>
           </li>
-
-          <button>My Contact</button>
+          <li>
+            <a href="#contact"><span> < </span>Meu contato<span> ></span></a>
+          </li>
         </div>
         <!--cabeçalho-link-->
       </header>
@@ -50,38 +52,225 @@
             de Ciência da computação na universidade federal de Pelotas-RS.
           </p>
           <div class="redes-social">
-            <a href="https://www.facebook.com/henrique.krause.94"
+            <a
+              href="https://www.facebook.com/henrique.krause.94"
+              target="_blank"
               ><i class="fa-brands fa-facebook"></i
             ></a>
-            <a href="https://twitter.com/HenriqueBKraus3"
+            <a href="https://twitter.com/HenriqueBKraus3" target="_blank"
               ><i class="fa-brands fa-twitter"></i
             ></a>
-            <a href="https://www.instagram.com/henrique_krause23/"
+            <a
+              href="https://www.instagram.com/henrique_krause23/"
+              target="_blank"
               ><i class="fa-brands fa-instagram"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/henrique-borges-krause-4518771b0/"
+              target="_blank"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
-            <a href="https://github.com/HenriqueKrause"
+            <a href="https://github.com/HenriqueBKrause" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
           </div>
           <!--redes-social-->
-          <button class="btn">Sobre mim</button>
+          <a href="#aboutpage"><button class="btn">Sobre mim</button></a>
         </div>
         <!--text-->
       </div>
       <!--container-text-->
       <header>
         <div class="foto">
-          <img src="/img/foto.png" alt="foto" />
+          <img src="/img/foto.png" alt="foto" width="490px" />
         </div>
+        <!--foto-->
       </header>
+     
     </div>
-    <!--background-->
+    <!--fim da page home-->
 
-    <script type="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--paginaSobre-->
+    <div id="aboutpage"></div>
+    <div class="background-about">
+      <div class="abouttext">
+        <h1>🚀 Sobre <span>Mim</span> 🚀</h1>
+        <br />
+        <p1>
+          Olá, meu nome é Henrique Borges Krause, sou de uma ciadede pequena, no
+          interior do Rio Grande do Sul, chamada Canguçu,sou apoixonado por
+          tecnologia e programação. Tudo começou com meu contato com video-games
+          desde muito novo, a partir deste momento, começou uma paixão por
+          games, por tecnologia, e posteriormente por programação. Atualamente
+          sou estudande do curso de Ciência da computação na UFPEL e
+          desenvolvedor front-end. Meus estudos na área da tecnologia começaram
+          em 2019, antes mesmo de entrar no curso que estou atualmente, comecei
+          a estudar programação, com alguns cursos e ajuda de pessoas já
+          prezentes na área, e desde então venho me aperfeiçoando cada vez mais.
+        </p1>
+        <br />
+        <br />
+        <br />
+        <p2>
+          Carrego comigo que a cada linha de codigo feita é um desenvolvimento
+          pessoal a mais de um programador!
+        </p2>
+
+        <div class="smalllogo">
+          <img src="/img/smalllogo.png" alt="logo" width="140px" />
+        </div>
+      </div>
+    </div>
+    <!--Fim da page Sobre-->
+
+    <!--Pagina services -->
+    <div id="services"></div>
+    <div class="background-services">
+      <div class="servicetext">
+        <h1>🚀 Serviços 🚀</h1>
+        <br />
+        <p>
+          Desenvolvimento de sites e sistemas web, com foco em front-end,
+          utilizando as tecnologias mais atuais do mercado.
+        </p>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <div class="c-loader"></div>
+        </div>
+        <div class="card">
+          <div class="c-loader"></div>
+        </div>
+        <div class="card">
+          <div class="c-loader"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Fim da page services-->
+
+    <!--Pagina skills -->
+    <div id="skills"></div>
+    <div class="background-skills">
+      <div class="container-skills">
+        <div class="cardicons">
+          <h1><span><</span> Skills <span>></span></h1>
+
+          <div class="icons">
+            <img
+              alt="HTML"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+            />
+            <img
+              alt="CSS"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+            />
+            <img
+              alt="Js"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            />
+            <img
+              alt="React"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+            />
+          </div>
+
+          <div class="iconstwo">
+            <img
+              alt="C"
+              height="300"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"
+            />
+            <img
+              alt="Git"
+              height="300"
+              width="100"
+              src="https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/git/git-original.svg"
+            />
+            <img
+              alt="GitHub"
+              height="300"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            />
+            <img
+              alt="Linux"
+              height="300"
+              width="100"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fim da page skills-->
+
+    <!--Pagina contact -->
+    <div id="contact"></div>
+    <div class="background-contact">
+      <div class="contacttext">
+        <section>
+          <h2>Meu <span>Contato</span></h2>
+
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Digite seu nome"
+              autocomplete="off"
+              required
+            />
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Digite seu email"
+              autocomplete="off"
+              required
+            />
+            <label>Mensagem</label>
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Digite sua mensagem"
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+
+            <input
+              type="hidden"
+              name="accessKey"
+              value="abf7e782-6c77-414d-8d56-6ee5d7e68e62"
+            />
+            <input
+              type="hidden"
+              name="redirectTo"
+              value="http://127.0.0.1:5500/obrigado.html"
+            />
+          </form>
+        </section>
+
+        <div id="div-fixa" class="flutuar" data-shrink="yes">
+          <a href="https://wa.me/5553984288114" target="_blank">
+
+            <div class="flex-itens">
+              <img src="/img/whats.png" alt="chamar no whatsapp">
+              <span>Converse conosco!</span>
+            </div>
+          </div>
+      </div>
+    </div>
   </body>
+
+  <script type="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="whatsapp-shink.js"></script>
 </html>
