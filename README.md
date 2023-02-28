@@ -28,14 +28,17 @@
   + Css
   + JS
   
-  ## How to contact: ✉️
-  
-  + The contact services, such as the form and the Whatsapp button are working, feel free to use them.
-  
-  ## How to access the page:
+   ## How to access the page:
   
   + Copy the link: https://henriquebkrause.github.io/Portfolio-Henrique/
   or
   + For better experience, open the code and use the live server for direct access to the page.
   
+  ## How to contact: ✉️
   
+  + The contact services, such as the form and the Whatsapp button are working, feel free to use them.
+  
+ 
+  
+  ![Captura de tela de 2023-02-28 17-06-33](https://user-images.githubusercontent.com/88389687/221970422-28f75854-8b48-4890-a8ae-4ffba20c2a5d.png)
+
