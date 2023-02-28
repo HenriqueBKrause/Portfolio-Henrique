@@ -77,6 +77,21 @@ header {
   color: #27789e;
 }
 
+.aviso span {
+  color: #27789e;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aviso p {
+  color: #f5f5f5;
+  font-size: 20px;
+  padding: 40px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
   color: #27789e;
   background: transparent;
