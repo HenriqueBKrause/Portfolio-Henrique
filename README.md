@@ -2,7 +2,7 @@
 
 <h1> < Portfolio Henrique Krause > <h1>
   
-  >> Status: Development 
+  >> Status: Developed
   
   ## Purpose of this project: 🚀
   
